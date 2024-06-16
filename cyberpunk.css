@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0 0;
+    font-family: sans-serif;
+
+}
+body{
+    background-image: url("res/trailer.gif");
+    background-color: yellow;
+    image-resolution: 100%;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.nav_bar{
+    background-color: rgba(0,0,0,0.7);
+    padding: 10px 0px;
+    margin: 0;
+    text-align: right;
+}
+.nav_bar li{
+    padding: 20px 5px;
+    display: inline-block;
+}
+.nav_bar li a{
+    margin:2px;
+    text-decoration: none;
+    padding: 10px 50px;
+    color: aliceblue;
+    border: 1px solid red;
+    border-radius: 20px;
+}
+
+.logo_box{
+    margin-top: 2px;
+    height: 550px;
+    width: auto;
+    background-image: url("res/giphy.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-color: rgba(0,0,0,0.7);
+    background-size: 50%;
+}
+.logo_box h1{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    size: 1000px;
+    color: white;
+    bottom: 53%;
+    font-size: 46px;
+    font-style: oblique;
+    font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.trailer_box{
+    padding: 100px 100px;
+    background-color: red;
+    border-radius: 20px;
+    
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    height: 100vh; /* Adjust to fit your layout */
+    background-color: rgba(0,0,0,0.6);
+
+}
+video {
+    max-width: 100%; /* Ensure video doesn't exceed container width */
+    height: auto; /* Maintain aspect ratio */
+    outline: none; /* Remove default focus outline */
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.7); /* Optional: Add a box shadow */
+}
+h2{
+    padding: 100px 10px;
+    text-align: center;
+    color: aliceblue;
+    height: 20px;
+}
