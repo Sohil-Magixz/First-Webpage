@@ -54,18 +54,19 @@ body{
     display: flex;
 }
 .bod h1{
+    font-family: "Playwrite SK", cursive;
     padding: 0 0;
     margin: 0;
     text-decoration: none;
-    font-size: 36px;
+    font-size: 32px;
     font-weight: 400;
-    font-family: sans-serif;
     font-style: italic;
-    padding: 300px 50px;
+    margin: 300px 50px;
     transition: 0.2s;
 }
 .bod h1:hover{
-    font-size: 38px;
+    font-size: 31px;
+    transition: 0.2s;
 }
 .cont1{
 
